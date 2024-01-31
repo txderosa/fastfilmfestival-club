@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/toxadeco/fastfilmfestival.club/
+    - /bin/cp -R * $DEPLOYPATH
